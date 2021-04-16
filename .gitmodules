@@ -1,0 +1,6 @@
+[submodule "sub_presentation"]
+	path = sub_presentation
+	url = git@github.com:kleberandrade/tcc-fatec.git
+[submodule "sub_templates"]
+	path = sub_templates
+	url = git@github.com:kleberandrade/fatecam-abntex2.git
