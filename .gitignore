@@ -1,3 +1,18 @@
+# Latex
+*.aux
+*.bb
+*.blg
+*.brf
+*.idx
+*.loa
+*.lof
+*.log
+*.loq
+*.lot
+*.pdf
+*.synctex.gz
+*.toc
+
 # Prerequisites
 *.d
 
