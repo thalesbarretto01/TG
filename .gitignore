@@ -1,3 +1,8 @@
+# C cruft
+mpu_src/tags
+mpu_src/*.log
+mpu_src/mpu6050
+
 # Latex
 *.aux
 *.bb

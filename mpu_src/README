@@ -1,0 +1,22 @@
+O programa faz a leitura de um sensor MPU-6050 conectado a uma Raspberry Pi 3.
+
+Podemos esolher a frequencia de amostragem (fs) e o range dos sensores
+(accel_range e gyro_range).
+
+A frequencia de amostragem precisa ser TESTADA, pois não é possível obter todas
+as frequencias disponíveis no sensor, por limitações da Raspberry Pi.
+
+Antes de exibir as medidas, passamos por uma periodo de calibração e
+estabilização das leituras.
+
+Com as leituras corrigidas pela calibração, temos as leituras de Yaw Pitch Roll
+baseadas em mediçoes do acelerômetro, e Yaw rate, Roll rate e Pitch rate nas do
+giroscopoio.
+
+Legenda:
+Ax,Ay,Az = leituras do acelerometro (g's)
+Gx,Gy,Gz = leituras do giroscopio (graus/seg)
+y,p,r	= yaw pitch roll (graus)
+Y,P,R	= yaw rate, pitch rate, roll rate (graus/segundo)
+
+
